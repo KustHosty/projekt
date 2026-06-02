@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youristo</title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<div class="wrap">
+
+    <!-- ========== ШАПКА ========== -->
+    <header class="hdr">
+        <img src="images/logo.svg" alt="Youristo" class="logo">
+
+        <div class="hdr-contacts">
+            <div class="hdr-list">
+                <span class="phone">+7 (495) 646-00-43</span>
+                <span class="email">info@youristo.online</span>
+            </div>
+            <button onclick="openModal()" class="btn-free">Попробовать бесплатно</button>
+            <img src="images/user-ic.svg" alt=" " class="user-icon">
+        </div>
+
+        <nav class="nav">
+            <div class="nav-list">
+                <a href="#" class="nav-link">О сервисе</a>
+                <a href="#" class="nav-link">Тарифы</a>
+                <a href="#" class="nav-link">Инструкция</a>
+                <a href="#" class="nav-link">Этапы работ</a>
+                <a href="#" class="nav-link">Гарантии</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- ========== СЕКЦИЯ 1 ========== -->
+    <section class="sec1">
+        <div class="sec1-top">
+            <article class="sec1-card">
+                <a href="#" class="sec1-link">
+                    <img src="images/document.s.chertn-ic.svg" class="sec1-icon"> Пример результата
+                </a>
+
+                <div>
+                    <p><span class="orange-outline">Онлайн-сервисы</span> <span class="outline">для судебной работы</span></p>
+                    <h1 class="sec1-title">
+                        <span class="black">Определение территориальной подсудности</span>
+                        <span class="orange"> с судами, работающими с ЭДО</span>
+                    </h1>
+                    <p class="sec1-desc">Автоматическое определение территориальной подсудности и реквизитов для оплаты госпошлины за несколько секунд</p>
+                </div>
+
+                <div class="sec1-list-wrapper">
+                    <div class="list-col-1">
+                        <span class="sec1-item"><img src="images/documents-ic.svg" class="list-icon"> Данные о судебных участках</span>
+                        <span class="sec1-item"><img src="images/documents-ic.svg" class="list-icon"> Данные отдела судебных приставов</span>
+                    </div>
+                    <div class="list-col-2">
+                        <span class="sec1-item"><img src="images/documents-ic.svg" class="list-icon"> Реквизиты для оплаты госпошлины</span>
+                        <span class="sec1-item"><img src="images/documents-ic.svg" class="list-icon"> Суды, принимающие ЭДО</span>
+                    </div>
+                </div>
+
+                <div class="sec1-phone-group">
+                    <div class="sec1-phone-field">
+                        <span class="sec1-phone-input">+7 (9__) __.__.__.__</span>
+                        <img src="images/trubka-ic.svg" class="sec1-phone-icon">
+                    </div>
+                    <span class="sec1-submit">Получить демо доступ</span>
+                </div>
+            </article>
+
+            <div class="sec1-cards">
+                <div class="sec1-card1">
+                    <img src="images/karta-1.png" alt="карта 1">
+                    <span class="strelka-down"><img src="images/strela-vniz.svg" alt="стрелка вниз"></span>
+                </div>
+                <div class="sec1-card2">
+                    <img src="images/karta-2.png" alt="карта 2">
+                    <span class="strelka-up"><img src="images/strela-verx.svg" alt="стрелка вверх"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec1-info">
+            <h2>Идеальное решение для:</h2>
+            <div class="sec1-info-list">
+                <span class="sec1-info-item">банков и кредитных организаций</span>
+                <span class="sec1-info-item">лизинговых компаний</span>
+                <span class="sec1-info-item">коллекторских агентств</span>
+                <span class="sec1-info-item">страховых компаний</span>
+                <span class="sec1-info-item">юридических фирм</span>
+                <span class="sec1-info-item">маркетинговых агентств</span>
+            </div>
+        </div>
+
+        <div class="sec1-features">
+            <article class="sec1-feature">
+                <div class="sec1-feature-header">
+                    <span class="sec1-feature-circle"><img src="images/tre-tiretocka-ic.svg" alt="иконка"></span>
+                    <h3 class="features-title"><span class="orange">До 1 000 000<br></span>  запросов в день</h3>
+                </div>
+                <p class="features-text">Одиночные и пакетные запросы <img src="images/palka-ic.svg" alt="палка" class="features-icon"></p>
+            </article>
+
+            <article class="sec1-feature">
+                <div class="sec1-feature-header">
+                    <span class="sec1-feature-circle"><img src="images/calendar-ic.svg" alt="иконка"></span>
+                    <h3 class="features-title">Всегда только <br><span class="orange">актуальные данные</span></h3>
+                </div>
+                <p class="features-text">Откуда мы берем информацию <img src="images/palka-ic.svg" alt="палка" class="features-icon"></p>
+            </article>
+
+            <article class="sec1-feature">
+                <div class="sec1-feature-header">
+                    <span class="sec1-feature-circle"><img src="images/kvadrat.s.krug-ic.svg" alt="иконка"></span>
+                    <h3 class="features-title"> <span class="orange">Высокая точность <br> </span>определения — 99,6%</h3>
+                </div>
+                <p class="features-text">Как мы гарантируем точность <img src="images/palka-ic.svg" alt="палка" class="features-icon"></p>
+            </article>
+
+            <article class="sec1-feature">
+                <div class="sec1-feature-header">
+                    <span class="sec1-feature-circle"><img src="images/krug-chertn-ic.svg" alt="иконка"></span>
+                    <h3 class="features-title">Функциональный <br><span class="orange">личный кабинет </span></h3>
+                </div>
+                <p class="features-text">Попробуйте бесплатно <img src="images/palka-ic.svg" alt="палка" class="features-icon"></p>
+            </article>
+        </div> 
+    </section>
+
+
+    <!-- ========== СЕКЦИЯ 2 ========== -->
+    <section class="sec2">
+        <h2 class="sec2-title">Удобный формат взаимодействия</h2>
+
+        <div class="sec2-cards">
+            <article class="sec2-card">
+                <span class="sec2-circle"><img src="images/kvadrat.s.krug-ic.svg" alt="иконка"></span>
+                <h3 class="sec2-card-title">Одиночные запросы через личный кабинет</h3>
+            </article>
+
+            <article class="sec2-card">
+                <span class="sec2-circle"><img src="images/tre-tiretocka-ic.svg" alt="иконка"></span>
+                <h3 class="sec2-card-title">Пакетные запросы с помощью excel таблиц</h3>
+            </article>
+
+            <article class="sec2-card">
+                <span class="sec2-circle"><img src="images/user-ic.svg" alt="иконка"></span>
+                <h3 class="sec2-card-title">Взаимодействие через менеджера</h3>
+            </article>
+
+            <article class="sec2-card">
+                <span class="sec2-circle"><img src="images/shestirenka-ic.svg" alt="иконка"></span>
+                <h3 class="sec2-card-title">Автоматизированная работа через API</h3>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- ========== СЕКЦИЯ 3 ========== -->
+    <section class="sec3">
+        <div class="sec3-inner">
+            <article class="sec3-left">
+                <h2 class="sec3-offer-title">Расскажем всё о сервисе <span class="orange">и подарим доступ на 1 000 запросов</span></h2>
+                <p class="sec3-offer-text">Укажите номер телефона, мы свяжемся с вами в течение дня, ответим на все вопросы и подарим доступ ко всем функциям на 3 дня при оформлении</p>
+
+                <div class="sec3-contact">
+                    <div class="sec3-contact-field">
+                        <span class="sec3-contact-input">+7 (9__) __.__.__.__</span>
+                        <img src="images/trubka-ic.svg" alt="телефон" class="sec3-contact-icon">
+                    </div>
+                    <span class="sec3-contact-btn">Консультация и демо доступ</span>
+                </div>
+            </article>
+
+            <aside class="sec3-right">
+                <div class="sec3-manager">
+                    <img src="images/girl.png" alt="Наталья Бородина" class="sec3-manager-photo">
+                    <div class="sec3-manager-info">
+                        <span class="sec3-manager-name">Наталья Бородина</span>
+                        <span class="sec3-manager-post">Персональный менеджер</span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+
+    <!-- ========== СЕКЦИЯ 4 ========== -->
+    <section class="sec4">
+        <div class="sec4-inner">
+            <div class="sec4-left">
+                <h2 class="sec4-left-title">Получите данные <span class="orange">в 2 шага</span></h2>
+
+                <div class="sec4-bottom">
+                    <div class="sec4-gray">
+                        <div class="sec4-info-text">
+                            <span class="sec4-info-title">Вы предоставляете нам адрес должника</span>
+                            <p class="sec4-info-desc">Попробуйте прямо сейчас бесплатно. Укажите адрес должника.</p>
+                        </div>
+                        <div class="sec4-address">
+                            <span class="sec4-address-text">Город, улица, дом, квартира</span>
+                            <img src="images/geo-ic.svg" alt="иконка" class="sec4-address-icon">
+                        </div>
+                    </div>
+                    <span class="sec4-circle"><img src="images/strelka-ic.svg" alt="стрелка"></span>
+                </div>
+            </div>
+
+            <div class="sec4-right">
+                <div class="sec4-right-content">
+                    <div>
+    <h3 class="sec4-right-title">Мы предоставляем вам:</h3>
+    <div class="sec4-right-list">
+        <div class="sec4-list-item">
+            <span class="list-marker">•</span>
+            <span>
+                Наименования, адреса и контакты:<br>
+                мировых судов, городских судов, районных <br> судов, отделов ФССП
+            </span>
+        </div>
+        <div class="sec4-list-item">
+            <span class="list-marker">•</span>
+            <span>Реквизиты для оплаты государственной пошлины</span>
+        </div>
+    </div>
+</div>
+                    <div class="sec4-white">
+                        <span class="white-circle"><img src="images/document.s.chertn-ic.svg" alt="иконка" class="white-icon"></span>
+                        <p class="white-text">Посмотрите результат работы сервиса</p>
+                    </div>
+                </div>
+
+                <div class="sec4-phone-field">
+                    <div class="phone-input-wrapper">
+                        <span class="sec4-phone-input">+7 (9__) __-__-__</span>
+                        <img src="images/trubka-ic.svg" alt="телефон" class="sec4-phone-icon">
+                    </div>
+                    <span class="sec4-info-btn">Получить информацию</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========== СЕКЦИЯ 5 ========== -->
+    <section class="sec5">
+        <div class="sec5-inner">
+        
+                <article class="sec5-card sec5-gray">
+                    <h2 class="sec5-card-title">Источники данных</h2>
+                    <p class="sec5-card-desc">Мы собираем информацию только из официальных проверенных источников, поэтому <strong>гарантируем её актуальность и точность на 100%</strong>.</p>
+                </article>
+
+                <article class="sec5-card sec5-white">
+                    <img src="images/gerb.png" alt="изображение" class="sec5-image">
+                    <div class="sec5-white-content">
+                        <h3 class="sec5-white-title">Законодательная база РФ</h3>
+                        <div class="sec5-gray-link">
+                            <img src="images/verification.png" alt="галочка" class="sec5-check">
+                            <a href="#" class="sec5-link">pravo.gov.ru</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="sec5-card sec5-white">
+                    <img src="images/sydRF.png" alt="изображение" class="sec5-image">
+                    <div class="sec5-white-content">
+                        <h3 class="sec5-white-title">Сайты судов России</h3>
+                        <div class="sec5-gray-link">
+                            <img src="images/verification.png" alt="галочка" class="sec5-check">
+                            <a href="#" class="sec5-link">Смотреть список</a>
+                        </div>
+                    </div>
+                </article>
+            
+
+            
+                <article class="sec5-card sec5-white">
+                    <img src="images/syd-pristav.png" alt="изображение" class="sec5-image">
+                    <div class="sec5-white-content">
+                        <h3 class="sec5-white-title">Федеральная служба судебных приставов</h3>
+                        <div class="sec5-gray-link">
+                            <img src="images/verification.png" alt="галочка" class="sec5-check">
+                            <a href="#" class="sec5-link">fssp.gov.ru</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="sec5-card sec5-white">
+                    <img src="images/fns.jpg" alt="изображение" class="sec5-image">
+                    <div class="sec5-white-content">
+                        <h3 class="sec5-white-title">Федеральная налоговая служба</h3>
+                        <div class="sec5-gray-link">
+                            <img src="images/verification.png" alt="галочка" class="sec5-check">
+                            <a href="#" class="sec5-link">nalog.gov.ru</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="sec5-card sec5-white">
+                    <img src="images/gerb.png" alt="изображение" class="sec5-image">
+                    <div class="sec5-white-content">
+                        <h3 class="sec5-white-title">Государственная система «Правосудие»</h3>
+                        <div class="sec5-gray-link">
+                            <img src="images/verification.png" alt="галочка" class="sec5-check">
+                            <a href="#" class="sec5-link">sudrf.ru</a>
+                        </div>
+                    </div>
+                </article>
+            
+        </div>
+    </section>
+
+
+    <!-- ========== СЕКЦИЯ 6 ========== -->
+    <section class="sec6">
+        <div class="sec6-inner">
+            <div class="sec6-row">
+                <div class="sec6-left">
+                    <h2 class="sec6-title">Тарифы</h2>
+                    <p class="sec6-desc">Выберите необходимый объем данных</p>
+
+                    <div class="sec6-below">
+                        <div class="address-prices">
+    <div class="price-item">
+        <span class="price-icon"><img src="images/u_check-circle.svg" alt="галочка" class="icon-check"></span>
+        <span class="price-text">
+            <span class="price-bold">До 1 200</span>
+            <span class="price-light">адресов</span>
+        </span>
+    </div>
+    <div class="price-item">
+        <span class="price-icon"><img src="images/u_check-circle.svg" alt="галочка" class="icon-check"></span>
+        <span class="price-text">
+            <span class="price-bold">1 200 – 3 000</span>
+            <span class="price-light">адресов</span>
+        </span>
+    </div>
+    <div class="price-item">
+        <span class="price-icon"><img src="images/u_check-circle.svg" alt="галочка" class="icon-check"></span>
+        <span class="price-text">
+            <span class="price-bold">3 000 – 6 000</span>
+            <span class="price-light">адресов</span>
+        </span>
+    </div>
+    <div class="price-item">
+        <span class="price-icon"><img src="images/u_check-circle.svg" alt="галочка" class="icon-check"></span>
+        <span class="price-text">
+            <span class="price-bold">6 000 – 12 000</span>
+            <span class="price-light">адресов</span>
+        </span>
+    </div>
+</div>
+<div class="special-offer">
+    <span class="price-icon"><img src="images/u_check-circle.svg" alt="галочка" class="icon-check"></span>
+    <span class="special-text">
+        <span class="special-bold">Для количества адресов от 12 000 и более действует</span>
+        <span class="special-orange"> специальное предложение</span>
+    </span>
+</div>
+
+                    
+                    </div>
+                </div>
+
+                <div class="sec6-right">
+                    <div class="sec6-top">
+                        <div class="sec6-top-1">
+                            <p>Вы выбрали</p>
+                            <span class="orange">3 000 – 6 000</span>
+                            <p>адресов в месяц</p>
+                        </div>
+                        <div class="sec6-top-2">
+                            <span class="top-price">6 ₽</span>
+                            <span class="divider"></span>
+                            <span class="top-cost-text">Стоимость 1 запроса</span>
+                        </div>
+                    </div>
+                    <p class="middle-text"><span class="bold-text">Тарификация только успешные запросы.</span> Если по вашему запросу не нашлось никаких данных, то мы не возьмем за него оплату.</p>
+
+                    <div class="phone-request">
+                        <div class="phone-field-request">
+                            <span class="phone-input-request">+7 (9__) ___-__-__</span>
+                            <img src="images/trubka-ic.svg" alt="телефон" class="phone-icon-request">
+                        </div>
+                        <span class="request-btn">Оставить заявку</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========== ПОДВАЛ ========== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <img src="images/logo.svg" alt="Youristo" class="footer-logo-img">
+
+            <nav class="footer-nav">
+                <div class="footer-nav-list">
+                    <a href="#" class="footer-nav-link">О сервисе</a>
+                    <a href="#" class="footer-nav-link">Тарифы</a>
+                    <a href="#" class="footer-nav-link">Инструкция</a>
+                    <a href="#" class="footer-nav-link">Этапы работ</a>
+                    <a href="#" class="footer-nav-link">Гарантии</a>
+                </div>
+            </nav>
+
+            <div class="footer-contacts">
+                <div class="footer-contact-block">
+                    <a href="tel:+74956460043" class="footer-phone">+7 (495) 646-00-43</a>
+                    <a href="mailto:info@youristo.online" class="footer-email">info@youristo.online</a>
+                </div>
+                <span class="footer-btn">Бесплатная консультация</span>
+                <img src="images/user-ic.svg" alt="профиль" class="footer-profile-icon">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+    <span class="footer-white-content">ООО «ЛИГРЕС»</span>
+    <span class="divider-2"></span>
+    <span class="footer-white-content">115280, г. Москва ул. Ленинская Слобода, д. 19</span>
+    <span class="divider-2"></span>
+    <span class="footer-white-content">ИНН: 9725033401</span>
+</div>
+            <p class="footer-text-gray">Отправляя свои личные данные через формы на сайте, Вы даёте своё согласие на обработку персональных данных согласно Федеральному закону №152-ФЗ «О персональных данных» от 27.07.2006 г. Посещая сайт Youristo.Online компании «ЛИГРЕС», вы соглашаетесь с Правилами и условиями использования и политикой обработки персональных данных данного сайта.</p>
+        </div>
+    </footer>
+
+</div>
+
+<script src="js/script.js"></script>
+<script src="js/modal.js"></script>
+
+<!-- Модальное окно -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h3 class="modal-title">Заполните данные</h3>
+        <form id="modal-form">
+            <div class="modal-field">
+                <label>ФИО</label>
+                <input type="text" placeholder="Введите ваше ФИО" required>
+            </div>
+            <div class="modal-field">
+                <label>Город</label>
+                <input type="text" placeholder="Введите ваш город" required>
+            </div>
+            <div class="modal-field">
+                <label>Описание ситуации</label>
+                <textarea rows="4" placeholder="Опишите вашу ситуацию" required></textarea>
+            </div>
+            <button type="submit" class="modal-submit">Отправить</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
