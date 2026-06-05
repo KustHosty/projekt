@@ -58,7 +58,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 .btn-free:hover {
     background: #e05a1a;
@@ -74,7 +74,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .nav-link:hover {
@@ -242,7 +242,7 @@ body {
     cursor: pointer;
     white-space: nowrap;
     flex-grow: 1;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .sec1-submit:hover {
@@ -319,14 +319,12 @@ body {
     border: 2px solid #F9681E;                 
 }
 .sec1-features {
-    width: 1440px;
     display: flex;
     gap: 40px;
     margin-top: 50px;
 }
 
 .sec1-feature {
-    width: 100%;
     background: white;
     border-radius: 15px;
     padding: 25px 35px;
@@ -507,7 +505,7 @@ body {
     border-radius: 0 10px 10px 0;
     cursor: pointer;
     white-space: nowrap;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .sec3-contact-btn:hover{
@@ -766,7 +764,7 @@ body {
     white-space: nowrap;
     border-radius: 0 10px 10px 0;
     flex-grow: 1;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .sec4-info-btn:hover {
@@ -938,7 +936,7 @@ body {
     width: max-content;
     cursor: pointer;
     align-items: center;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 .price-icon {
     width: 24px;
@@ -1124,7 +1122,7 @@ body {
     white-space: nowrap;
     border-radius: 0 10px 10px 0;
     flex-grow: 1;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .request-btn:hover {
@@ -1191,7 +1189,7 @@ body {
     font-weight: 700;
     color: #333;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .footer-nav-link:hover {
@@ -1234,7 +1232,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .footer-btn:hover{
@@ -1371,7 +1369,7 @@ body {
     cursor: pointer;
     width: 100%;
     margin-top: 10px;
-    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .modal-submit:hover {
@@ -1492,12 +1490,14 @@ body {
 
     /* Преимущества */
     .sec1-features {
-        flex-direction: column;
         gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .sec1-feature {
         padding: 20px;
+        width: 50%
     }
 
     /* СЕКЦИЯ 2 */
