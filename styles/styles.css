@@ -58,6 +58,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
+    transition: all 0.3s ease;
 }
 .btn-free:hover {
     background: #e05a1a;
@@ -73,6 +74,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
+    transition: all 0.3s ease;
 }
 
 .nav-link:hover {
@@ -240,6 +242,7 @@ body {
     cursor: pointer;
     white-space: nowrap;
     flex-grow: 1;
+    transition: all 0.3s ease;
 }
 
 .sec1-submit:hover {
@@ -504,6 +507,7 @@ body {
     border-radius: 0 10px 10px 0;
     cursor: pointer;
     white-space: nowrap;
+    transition: all 0.3s ease;
 }
 
 .sec3-contact-btn:hover{
@@ -762,6 +766,7 @@ body {
     white-space: nowrap;
     border-radius: 0 10px 10px 0;
     flex-grow: 1;
+    transition: all 0.3s ease;
 }
 
 .sec4-info-btn:hover {
@@ -1050,8 +1055,11 @@ body {
 }
 .top-price {
     font-weight: 700;           
-    font-size: 24px;   
+    font-size: 30px;   
     color: #F9681E;        
+}
+.ruble {
+    font-size: 0.7em;  
 }
 
 .divider {
@@ -1116,6 +1124,7 @@ body {
     white-space: nowrap;
     border-radius: 0 10px 10px 0;
     flex-grow: 1;
+    transition: all 0.3s ease;
 }
 
 .request-btn:hover {
@@ -1182,6 +1191,7 @@ body {
     font-weight: 700;
     color: #333;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .footer-nav-link:hover {
@@ -1224,6 +1234,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .footer-btn:hover{
@@ -1360,6 +1371,7 @@ body {
     cursor: pointer;
     width: 100%;
     margin-top: 10px;
+    transition: all 0.3s ease;
 }
 
 .modal-submit:hover {
@@ -1415,7 +1427,7 @@ body {
     }
 
     .sec1-title {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .sec1-desc {
@@ -1497,7 +1509,7 @@ body {
     }
 
     .sec2-title {
-        font-size: 32px;
+        font-size: 2rem;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -1526,21 +1538,22 @@ body {
     }
 
     .sec3-offer-title {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .sec3-contact {
         width: 100%;
         margin: 30px 0 0 0;
-        justify-content: center;
     }
 
     .sec3-contact-field {
-        justify-content: center;
+        width: 100%;
+        text-align: center;
     }
 
     .sec3-contact-btn {
         text-align: center;
+        width: 100%;
     }
 
     .sec3-right {
@@ -1568,7 +1581,7 @@ body {
     }
 
     .sec4-left-title {
-        font-size: 32px;
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -1638,7 +1651,7 @@ body {
     }
 
     .sec5-card-title {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .sec5-white {
@@ -1661,7 +1674,7 @@ body {
     }
 
     .sec6-title {
-        font-size: 32px;
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -1712,6 +1725,8 @@ body {
     }
     .phone-field-request {
         justify-content: center;
+        text-align: center;
+
     }
 
     .request-btn {
